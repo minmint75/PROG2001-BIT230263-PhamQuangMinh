@@ -1,17 +1,21 @@
 #include <stdio.h>
 
 int main() {
-    int num;
+    int num = 10;
 
-    printf("Nhập vào một số: ");
-    scanf("%d", &num);
+    printf("Giá trị ban đầu: %d\n", num);
 
-    if (num >= 10 && num <= 50) {
-        printf("Số %d nằm trong khoảng từ 10 đến 50.\n", num);
-    } 
-    else {
-        printf("Số %d nằm ngoài khoảng [10, 50].\n", num);
-    }
+    num += 5;
+    printf("Sau khi += 5: %d\n", num);
+
+    num -= 3;
+    printf("Sau khi -= 3: %d\n", num);
+
+    num *= 2;
+    printf("Sau khi *= 2: %d\n", num);
+
+    num /= 4;
+    printf("Sau khi /= 4: %d\n", num);
 
     return 0;
 }
