@@ -6,7 +6,7 @@ int main() {
     SetConsoleCP(65001);
     int a, b;
 
-    printf("Nhập vào hai số để so sánh: ");
+    printf("Nhập vào hai số để so sánh : ");
     scanf("%d %d", &a, &b);
 
     if (a > b) {
