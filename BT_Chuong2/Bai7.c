@@ -10,6 +10,9 @@ int main() {
     printf("Nhap so thu ba c: ");
     scanf("%f", &c);
 
+    if (a > max) {
+        max = a;
+    }
 
     if (b > max) {
         max = b;
